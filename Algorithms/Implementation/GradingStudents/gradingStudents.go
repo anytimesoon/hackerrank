@@ -12,8 +12,7 @@ func gradingStudents(grades []int32) []int32 {
 			continue
 		}
 
-		roundedGrade := roundUp(grade + 1)
-		res = append(res, roundedGrade)
+		res = append(res, roundUp(grade+1))
 	}
 	return res
 }
